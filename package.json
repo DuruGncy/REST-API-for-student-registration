@@ -1,0 +1,17 @@
+{
+  "name": "repsy-e2e-playwright-students",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:playwright": "npx playwright install --with-deps",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^24.5.2",
+    "dotenv": "^17.2.2",
+    "json-server": "^1.0.0-beta.3"
+  }
+}

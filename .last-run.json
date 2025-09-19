@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "passedTests": [
+    "test-id-1",
+    "test-id-2",
+    "test-id-3"
+  ]
+}
